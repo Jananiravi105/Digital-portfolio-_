@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head >
+ <meta charset="UTF-8">
+ <meta http-equiv=s"X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <title>Digital portfolio</title>
+ <link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+ function valid1() {
+ if(document.f1.n1.value == "")
+{
+ alert("Please enter the name");
+ document.f1.n1.focus();
+ return false;
+}
+if(document.f1.p1.value == "")
+{
+ alert("Please enter the mobile no");
+ document.f1.p1.focus();
+ return false;
+}
+if(document.f1.p2.value == "")
+{
+ alert("Please enter the message");
+ document.f1.p2.focus();
+ return false;
+}
+ }
+</script>
+ </head>
+ <body>
+ <center><p1 style="color: rgb(102, 0, 102);"><font size="5">Rubayazhini 
+M</font></p1></center>
+ <header>
+ <nav>
+ <ul>
+ <li><a href="#About">About</a></li>
+ <li><a href="#Education">Education</a></li>
+ <li><a href="#Skills">Skills</a></li>
+ <li><a href="#Contact">Contact</a></li>
+ </ul>
+ </nav>
+ </header>
+ <main>
+ <section id="About">
+ <center><h1>About me</h1></center>
+ <p>My name is <mark>Rubayazhini</mark></p>
+ <p>I'm a under graduate student.</p>
+ <p>I am pursuing <mark>B.Sc., Computer Science</mark>.</p>
+ </section>
+ <section id="Education">
+ <center><h1>Education</h1></center>
+ <p>I completed my XII Std in Sacred Heart School,Thanjavur.</p>
+ <p>I'm currently pursuing my bachelor's degree in Bon Secours College 
+For Women,Thanjavur.</p>
+ </section>
+ <section id="Skills">
+ <center><h1>Skills</h1></center>
+ <h1>Education Skills</h1>
+<ul>
+ <li>MS Office</li>
+ <li>C,C++</li>
+ <li>Java</li>
+ <li>Python</li>
+<li>SQL</li>
+ </ul>
+ <section id="Skills">
+ <h1><font size="5">Soft Skills</font></h1>
+ <ul>
+ <li>Time management.</li>
+ <li>Teamwork skill.</li>
+ <li>Adaptability skill.</li>
+ <li>self motivation person.</li>
+</ul>
+ <section id="Skills">
+ <h1> <font size="5">Completion Of Certificate Course</font></h1>
+ <ul>
+ <li>C++</li>
+ <li>MS Excel</li>
+ </ul>
+ </section>
+ </section>
+ <section id="Contact">
+ <h1>Contact Info</h1>
+ <p>rubayazhini@gmail.com</p>
+ <p>+91 7904304069</p>
+ <p>Tamil Nadu,India.</p>
+ <h1>Contact me</h1>
+ <div class="email">
+<a href="mailto:tamilsel091@gmail.com">
+ <input type="button" value="SEND">
+ </a>
+ </div>
+<br>
+<form name="f1">
+<table align="center" bgcolor="pink" border="1" 
+width="500" heigth="200">
+<tr>
+<td>
+Enter Your name
+</td>
+<td>
+<input type="text" name="n1">
+</td>
+</tr>
+<tr>
+<td>
+Enter Mobile Number
+</td>
+<td>
+<input type="text" name="p1">
+</td>
+</tr>
+<tr>
+<td>
+Enter Message
+</td>
+<td>
+<input type="text" name="p2">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<input type="submit" name="b1" value="Submit" onclick="valid1()">
+</td>
+</tr>
+</table>
+</section>
+ </main>
+ </body>
+</html>
